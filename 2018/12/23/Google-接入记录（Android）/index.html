@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="google,google内购,google上架,google签名," />
 
 
 
@@ -79,17 +79,25 @@
 
 
 
-<meta name="description" content="和蔼的润爷">
-<meta name="keywords" content="zsrun">
-<meta property="og:type" content="website">
-<meta property="og:title" content="和蔼的润爷の等你歸">
-<meta property="og:url" content="https://zsrun.github.io/index.html">
+<meta name="description" content="一、内购接入 官网地址 梯子哎，胸帝！ 接入方式：AIDL 项目整体结构：    所需资料、注意事项：aidl 下文件路径、包名不可修改  内购原实例项目据说在SDK目录下面，但我没找到。如找到请忽略，找不到移步下载Demo  添加权限 1&amp;lt;uses-permission android:name=&quot;com.android.vending.BILLING&quot; /&amp;gt;  内购前期准备  ap">
+<meta name="keywords" content="google,google内购,google上架,google签名">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Google 接入记录（Android）">
+<meta property="og:url" content="https://zsrun.github.io/2018/12/23/Google-接入记录（Android）/index.html">
 <meta property="og:site_name" content="和蔼的润爷の等你歸">
-<meta property="og:description" content="和蔼的润爷">
+<meta property="og:description" content="一、内购接入 官网地址 梯子哎，胸帝！ 接入方式：AIDL 项目整体结构：    所需资料、注意事项：aidl 下文件路径、包名不可修改  内购原实例项目据说在SDK目录下面，但我没找到。如找到请忽略，找不到移步下载Demo  添加权限 1&amp;lt;uses-permission android:name=&quot;com.android.vending.BILLING&quot; /&amp;gt;  内购前期准备  ap">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://zsrun.github.io/2018/12/23/Google-接入记录（Android）/images/google_jiegou.png">
+<meta property="og:image" content="https://zsrun.github.io/2018/12/23/Google-接入记录（Android）/images/google_notsign.png">
+<meta property="og:image" content="https://zsrun.github.io/2018/12/23/Google-接入记录（Android）/images/google_tosign.png">
+<meta property="og:image" content="https://zsrun.github.io/2018/12/23/Google-接入记录（Android）/images/google_singnafter.png">
+<meta property="og:image" content="https://zsrun.github.io/2018/12/23/Google-接入记录（Android）/images/google_latiao.png">
+<meta property="og:image" content="https://zsrun.github.io/2018/12/23/Google-接入记录（Android）/images/google_ceshi.png">
+<meta property="og:updated_time" content="2018-12-23T04:21:57.131Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="和蔼的润爷の等你歸">
-<meta name="twitter:description" content="和蔼的润爷">
+<meta name="twitter:title" content="Google 接入记录（Android）">
+<meta name="twitter:description" content="一、内购接入 官网地址 梯子哎，胸帝！ 接入方式：AIDL 项目整体结构：    所需资料、注意事项：aidl 下文件路径、包名不可修改  内购原实例项目据说在SDK目录下面，但我没找到。如找到请忽略，找不到移步下载Demo  添加权限 1&amp;lt;uses-permission android:name=&quot;com.android.vending.BILLING&quot; /&amp;gt;  内购前期准备  ap">
+<meta name="twitter:image" content="https://zsrun.github.io/2018/12/23/Google-接入记录（Android）/images/google_jiegou.png">
 
 
 
@@ -119,13 +127,13 @@
 
 
 
-  <link rel="canonical" href="https://zsrun.github.io/"/>
+  <link rel="canonical" href="https://zsrun.github.io/2018/12/23/Google-接入记录（Android）/"/>
 
 
 
 
 
-  <title>和蔼的润爷の等你歸</title>
+  <title>Google 接入记录（Android） | 和蔼的润爷の等你歸</title>
   
 
 
@@ -144,8 +152,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 	
 	<a href="https://github.com/zsrun"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png" alt="Fork me on GitHub"></a>
@@ -280,9 +287,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -312,9 +319,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/zsrun.github.io/2018/12/23/Google-接入记录（Android）/" itemprop="url">Google 接入记录（Android）</a></h1>
+          <h1 class="post-title" itemprop="name headline">Google 接入记录（Android）</h1>
         
 
         <div class="post-meta">
@@ -374,9 +379,7 @@
       
 
       
-        
-          
-            <h3 id="一、内购接入"><a href="#一、内购接入" class="headerlink" title="一、内购接入"></a>一、内购接入</h3><ol>
+        <h3 id="一、内购接入"><a href="#一、内购接入" class="headerlink" title="一、内购接入"></a>一、内购接入</h3><ol>
 <li><a href="https://developer.android.com/google/play/billing/api?hl=zh-cn" target="_blank" rel="noopener">官网地址</a> 梯子哎，胸帝！</li>
 <li>接入方式：AIDL</li>
 <li>项目整体结构：</li>
@@ -474,8 +477,6 @@
 </li>
 </ol>
 
-          
-        
       
     </div>
     
@@ -490,351 +491,42 @@
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zsrun.github.io/zsrun.github.io/2018/10/28/apk反编译记录/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="zsrun">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://gss0.bdstatic.com/70cFsj3f_gcX8t7mm9GUKT-xh_/avatar/100/r6s1g2.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="和蔼的润爷の等你歸">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/zsrun.github.io/2018/10/28/apk反编译记录/" itemprop="url">apk反编译记录</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-10-28T09:41:06+08:00">
-                2018-10-28
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/zsrun.github.io/tags/google/" rel="tag"># google</a>
           
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/zsrun.github.io/2018/10/28/apk反编译记录/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/zsrun.github.io/2018/10/28/apk反编译记录/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
+            <a href="/zsrun.github.io/tags/google内购/" rel="tag"># google内购</a>
           
-
+            <a href="/zsrun.github.io/tags/google上架/" rel="tag"># google上架</a>
           
+            <a href="/zsrun.github.io/tags/google签名/" rel="tag"># google签名</a>
           
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="一、反编译工具"><a href="#一、反编译工具" class="headerlink" title="一、反编译工具"></a>一、反编译工具</h3><h4 id="1-apktool-jar"><a href="#1-apktool-jar" class="headerlink" title="1.apktool.jar"></a>1.apktool.jar</h4><ul>
-<li><p>作用：反编译主要工具</p>
-</li>
-<li><p><a href="https://ibotpeaches.github.io/Apktool/install/" target="_blank" rel="noopener">下载地址</a>（需梯子）</p>
-</li>
-<li><p>使用：<a href="https://ibotpeaches.github.io/Apktool/documentation/" target="_blank" rel="noopener">官方地址</a></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"> d : 反编译拆包</span><br><span class="line">-o : 输出目录</span><br><span class="line">-r : 阻止反编译resource,不修改resources.arsc文件（如果反编译只修改smail文件而不修改res文件，可选）</span><br><span class="line">-s : 阻止dex文件分割（此命令不会生成smail文件，快速打包，不修改smail推荐使用）</span><br><span class="line">-f : 强制删除已经存在的目录</span><br><span class="line">-c : 复制原始的AndroidMainfest.xml和META-INF文件到apk</span><br><span class="line"> b : 反编译打包</span><br></pre></td></tr></table></figure>
-<p>反编译apk: apktool d -f  &lt;xxx.apk&gt; -o &lt;输出目录&gt;</p>
-<p>打包apk: apktool b -f &lt;资源目录&gt; -o &lt;输出.apk&gt;   </p>
-<blockquote>
-<p>打包apk后需要进行签名，使用原apk签名需要在打包时添加-c命令，如果不进行签名，apk无法进行安装；需要重新进行签名，请看签名工具介绍部分。</p>
-</blockquote>
-</li>
-</ul>
-<h4 id="2-aapt-exe"><a href="#2-aapt-exe" class="headerlink" title="2.aapt.exe"></a>2.aapt.exe</h4><ul>
-<li><p>作用：获取apk信息的工具</p>
-</li>
-<li><p>位置：SDK目录下build-tools 下 对应版本号内</p>
-</li>
-<li><p>使用：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">aapt d badging C:\Users\zhush\Desktop\test.apk &gt;      C:\Users\zhush\Desktop\info.txt（获取test.apk的信息输入到info.txt中）</span><br><span class="line">aapt l &lt;XX.apk&gt; ( 列出apk 的压缩文件目录)</span><br><span class="line">aapt dump badging &lt;XX.apk&gt; (获取apk 的包名、version信息等)</span><br><span class="line">aapt dump permissions &lt;XX.apk&gt; (获取apk 的所有权限)</span><br><span class="line">aapt dump resources &lt;XX.apk&gt; (获取apk 的资源列表)</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>注意：aapt 如果没有配置到环境变量中需要添加aapt路径再执行命令</p>
-</li>
-</ul>
-<h4 id="3-jd-gui"><a href="#3-jd-gui" class="headerlink" title="3.jd_gui"></a>3.jd_gui</h4><ul>
-<li>作用：获取jar 中的源代码</li>
-<li><a href="http://jd.benow.ca/" target="_blank" rel="noopener">下载地址</a></li>
-<li>使用：拖拽jar 值jd_gui编辑区域，或file open </li>
-</ul>
-<h4 id="4-jarsigner-exe"><a href="#4-jarsigner-exe" class="headerlink" title="4.jarsigner.exe"></a>4.jarsigner.exe</h4><ul>
-<li><p>作用：对apk进行签名</p>
-</li>
-<li><p>位置：jdk bin目录</p>
-</li>
-<li><p>使用：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">jarsigner -verbose -keystore &lt;签名文件目录&gt; -signedjar &lt;签名后apk存放目录&gt; &lt;当前需要签名的apk目录&gt; &lt;签名证书别名&gt;</span><br><span class="line"></span><br><span class="line">jarsigner -verbose -keystore E:\sign\another.jks -signedjar C:\Users\zhush\Desktop\c\test_c_signed.apk C:\Users\zhush\Desktop\c\test_c.apk  zhangqi (将test_c.apk签名 输出为test_c_singed.apk    证书别名：zhangqi)</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h3 id="二、反编译后目录作用及其介绍"><a href="#二、反编译后目录作用及其介绍" class="headerlink" title="二、反编译后目录作用及其介绍"></a>二、反编译后目录作用及其介绍</h3><h4 id="1-META-INF"><a href="#1-META-INF" class="headerlink" title="1. META-INF"></a>1. META-INF</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">apk签名文件，重新打包的apk需要进行签名后方可正常使用</span><br><span class="line"></span><br><span class="line">apktool -c 可用于保持原apk签名文件，但是测试时发现重新打包无法正常安装</span><br></pre></td></tr></table></figure>
-<h4 id="2-res"><a href="#2-res" class="headerlink" title="2.res"></a>2.res</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">资源文件，布局文件、字符串、样式等各种资源文件。</span><br></pre></td></tr></table></figure>
-<h5 id="2-1-布局文件"><a href="#2-1-布局文件" class="headerlink" title="2.1 布局文件"></a>2.1 布局文件</h5><table>
-<thead>
-<tr>
-<th style="text-align:center">name</th>
-<th style="text-align:center">描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">layout</td>
-<td style="text-align:center">默认</td>
-</tr>
-<tr>
-<td style="text-align:center">layout-land</td>
-<td style="text-align:center">横屏</td>
-</tr>
-<tr>
-<td style="text-align:center">layout-port</td>
-<td style="text-align:center">竖屏</td>
-</tr>
-<tr>
-<td style="text-align:center">layout-v16</td>
-<td style="text-align:center">Android <a href="https://blog.csdn.net/oqqtim12/article/details/43371153" target="_blank" rel="noopener">api=16的手机上展示的文件</a>  需要注意，有对应layout-[dpi]-[high x width]满足条件的，优先使用layout-[dpi]-[high x width]下的布局，没有才会使用layout-v[api lever]下的布局</td>
-</tr>
-</tbody>
-</table>
-<h4 id="3-AndroidManifest-xml"><a href="#3-AndroidManifest-xml" class="headerlink" title="3. AndroidManifest.xml"></a>3. AndroidManifest.xml</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">清单文件，可修改包名，添加权限等。</span><br></pre></td></tr></table></figure>
-<h4 id="4-classes-dex"><a href="#4-classes-dex" class="headerlink" title="4.classes.dex"></a>4.classes.dex</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">源码，如果拆包时使用 -s 命令，则保留classes.dex，不会被拆分，下次打包时原封不动打包。</span><br></pre></td></tr></table></figure>
-<h4 id="5-resources-arsc"><a href="#5-resources-arsc" class="headerlink" title="5.resources.arsc"></a>5.resources.arsc</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">资源文件，如果拆包时使用 -r  命令，则不会对资源文件进行拆分（保留resources.arsc），下次打包时直接会被拷贝。</span><br></pre></td></tr></table></figure>
-<h4 id="6-smali"><a href="#6-smali" class="headerlink" title="6.smali"></a>6.smali</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">源代码文件，由classes.dex编译得来。如果apktool 使用-r 则不会生成smali文件</span><br></pre></td></tr></table></figure>
-<h4 id="7-apltool-yml"><a href="#7-apltool-yml" class="headerlink" title="7.apltool.yml"></a>7.apltool.yml</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">doNotCompress ：设置不压缩文件   有时候 反编译后重新打包 打包后的apk 比原apk体积增大  需要将这里设置为doNotCompress: null (null前面需要加空格)即设置打包时压缩所有文件。</span><br><span class="line"></span><br><span class="line">versionInfo : 可以设置修改打包apk版本信息</span><br><span class="line">versionCode ：可以修改打包apk版本信息</span><br></pre></td></tr></table></figure>
-<h3 id="三-仅此记录，后期继续"><a href="#三-仅此记录，后期继续" class="headerlink" title="三 仅此记录，后期继续"></a>三 仅此记录，后期继续</h3>
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
       
 
       
       
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
       
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zsrun.github.io/zsrun.github.io/2018/09/22/江城子·密州出猎/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="zsrun">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://gss0.bdstatic.com/70cFsj3f_gcX8t7mm9GUKT-xh_/avatar/100/r6s1g2.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="和蔼的润爷の等你歸">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/zsrun.github.io/2018/09/22/江城子·密州出猎/" itemprop="url">江城子·密州出猎</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-22T10:07:27+08:00">
-                2018-09-22
-              </time>
+              <a href="/zsrun.github.io/2018/10/28/apk反编译记录/" rel="next" title="apk反编译记录">
+                <i class="fa fa-chevron-left"></i> apk反编译记录
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/zsrun.github.io/2018/09/22/江城子·密州出猎/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/zsrun.github.io/2018/09/22/江城子·密州出猎/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>作者：<a href="https://www.so.com/s?src=verse_card&amp;q=%E8%8B%8F%E8%BD%BC%E7%9A%84%E8%AF%97" target="_blank" rel="noopener">苏轼 (宋)</a></p>
-<p>老夫聊发少年狂，左牵黄，右擎苍，锦帽貂裘，</p>
-<p>千骑卷平冈。为报倾城随太守，亲射虎，看孙郎。</p>
-<p>酒酣胸胆尚开张。鬓微霜，又何妨！</p>
-<p>持节云中，何日遣冯唐？</p>
-<p>会挽雕弓如满月，西北望，射天狼。</p>
-<p><img src="http://p1.img.cctvpic.com/cportal/img/photoAlbum/page/performance/img/2017/10/12/1507819517108_177_720x480.jpg" alt="醉酒当歌"></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -844,10 +536,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -855,6 +548,13 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+    </div>
+  
+
+
 
         </div>
         
@@ -875,8 +575,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -931,6 +640,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、内购接入"><span class="nav-number">1.</span> <span class="nav-text">一、内购接入</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、Google-签名计划"><span class="nav-number">2.</span> <span class="nav-text">二、Google 签名计划</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、商品配置"><span class="nav-number">3.</span> <span class="nav-text">三、商品配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#四、加入测试计划"><span class="nav-number">4.</span> <span class="nav-text">四、加入测试计划</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#五、常见问题"><span class="nav-number">5.</span> <span class="nav-text">五、常见问题</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1078,6 +803,10 @@
 
 
   
+  <script type="text/javascript" src="/zsrun.github.io/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/zsrun.github.io/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
